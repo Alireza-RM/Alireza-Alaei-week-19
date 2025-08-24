@@ -1,0 +1,47 @@
+@import url(./assets/cssFonts/fontiran.css);
+
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  /* line-height: 1.5;
+  font-weight: 400; */
+
+  --background-side: #f7f8f8;
+  --background-primary: #ffffff;
+  --color--border: #e4e4e4;
+  --color-text: #282828;
+  --color-text-blue: #3a8bed;
+  --color-text-input: #282828;
+  --background-input: #f2f2f2;
+  --background--btn--blue: #55a3f0;
+  --background--btn--delete: #f43f5e;
+  --background--btn--cancel: #dfdfdf;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: IRANSans !important;
+  direction: rtl;
+  background-color: var(--background-side);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+button {
+  font-family: IRANSans !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
